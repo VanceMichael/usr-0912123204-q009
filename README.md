@@ -5,8 +5,5 @@
 ## 运行
 
 - Go 项目执行 `go test ./...`，再运行 `go run ./cmd/server`。
-- Python 项目执行 `python -m pytest`，再运行 `python app.py`。
-- Node.js 项目执行 `npm test`，再运行 `npm start`。
-- Java 项目执行 `mvn test`，再运行 `mvn spring-boot:run`。
 
 容器构建命令为 `docker build -t backend-baseline .`；需要配套服务的项目在 `docker-compose.yml` 中声明。健康接口为 `GET /health`。
